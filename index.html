@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>LandingPage</title>
+</head>
+<body>
+    <nav  id="desktop-nav">
+        <img src="./images/logo.svg" alt="" id="logo">
+        <ul>
+            <li id="features"><a href="#" class="tab">Features<img src='./images/icon-arrow-down.svg'alt="arrows" class="arrow" id="fea-arrow"></a>
+                <ul id="features-info-desktop" class="pop-out">
+                    <li><img src='./images/icon-todo.svg' alt="todo list"><a href="#">Todo List</a></li>
+                    <li><img src='./images/icon-calendar.svg' alt="calendar"><a href="#">Calender</a></li>
+                    <li><img src='./images/icon-reminders.svg' alt="Reminder"><a href="#">Reminders</a></li>
+                    <li><img src='./images/icon-planning.svg' alt="Planning"><a href="#">Planning</a></li>
+                </ul>
+            </li>
+            <li id="company"><a href="#" class="tab">Company <img src='./images/icon-arrow-down.svg' alt="arrows" class="arrow" id="desktop-comp-arrow"></a>
+                <ul id="company-info-desktop" class="pop-out">
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Our&nbsp;Team</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul> 
+            </li>
+            <li><a href="#" class="tab">Careers </a></li>
+            <li><a href="#" class="tab">About </a></li>
+            <li id="right-wing"><a href="#" class="tab">Login </a></li>
+            <li><a href="#" id="reg-btn" class="tab">Register</a></li>
+        </ul>
+    </nav>
+
+
+    <nav id="mobile-nav">
+        <img src="./images/logo.svg" alt="" id="logo">
+        <img src="./images/icon-menu.svg" alt="menu" id="menu">
+        <div id="sidebar-backg" >
+            <ul id="sidebar"> 
+                    <ul id="content">
+                            <li id="cancel-box"> <img src="./images/icon-close-menu.svg" alt="close menu" id="cancel"></li>
+                            <li id="features" class="tabs"><a href="#" class="tabs">Features<img src='./images/icon-arrow-down.svg' id="drop-features-arrow" class="drop" alt="drop down menu"></a>
+                                <ul id="mobile-features-info" class="items">
+                                    <li><img src='./images/icon-todo.svg' alt="create todo"><a href="#" class="tabs">Todo List</a></li>
+                                    <li><img src='./images/icon-calendar.svg' alt="view calendar"><a href="#" class="tabs">Calender</a></li>
+                                    <li><img src='./images/icon-reminders.svg' alt="set Reminder"><a href="#" class="tabs">Reminders</a></li>
+                                    <li><img src='./images/icon-planning.svg' alt="create a plan"><a href="#" class="tabs">Planning</a></li>
+                                </ul>
+                            </li>
+                            <li id="company" class="tabs"><a href="#" class="tabs">Company <img src='./images/icon-arrow-down.svg' id="drop-comp-info-arrow" class="drop" alt="drop down menu">
+                                <ul id="mobile-company-info" class="items">
+                                    <li><a href="#" class="tabs">History</a></li>
+                                    <li><a href="#" class="tabs">Our Team</a></li>
+                                    <li><a href="#" class="tabs">Blog</a></li>
+                                </ul> 
+                            </li>
+                            <li  class="tabs"><a href="#" class="tabs">Careers </a></li>
+                            <li class="tabs"><a href="#" class="tabs">About </a></li>
+                            <li>
+                                <ul id="btn-grp">
+                                    <li class="btn"><a href="#" class="tabs">Login </a></li>
+                                    <li class="btn" id="reg-btn"><a href="#" class="tabs" >Register</a></li>
+                                </ul>
+                            </li>
+
+                    </ul>
+                </ul>
+            </ul>
+        </div>
+    </nav>
+
+    <Section id="hero-page">
+        <img src="./images/image-hero-desktop.png" id="desktop-view" alt="writing codes to create a project">
+        <img src="./images/image-hero-mobile.png" id="mobile-view" alt="writing codes to create a project">
+        <main>
+            <header>
+                <h1>Make</h1>
+                <h1>remote&nbsp;work</h1>
+                <p>Get your team in sync, no matter your location. Streamline processes, create
+                    tean rituals, and watch productivity soar.
+                </p>
+                <button id="btn">Learn more</button>
+            </header>
+            <ul id="sponsors">
+                <li><img src="./images/client-databiz.svg" alt="databiz is a client" srcset=""></li>
+                <li><img src="./images/client-audiophile.svg" alt="audiophile is a client" srcset=""></li>
+                <li><img src="./images/client-meet.svg" alt="meet is a client"></li>
+                <li><img src="./images/client-maker.svg" alt="maker is a client"></li>
+            </ul>
+        </main>
+    </Section>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

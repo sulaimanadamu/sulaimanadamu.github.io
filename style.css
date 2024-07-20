@@ -339,7 +339,7 @@ body{
         margin: 5px 0;
     }
 
-    #features, #company{
+    .features, .company{
         position: relative;
     }
 
